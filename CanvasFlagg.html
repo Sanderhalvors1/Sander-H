@@ -1,0 +1,46 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flagg Canvas</title>
+    </head>
+    
+    <body style="background-color: black;">
+<h1 style="color:white ;"> 
+    Elfenbenkysten med riktig farge og dimensjoner</h1>
+
+    <canvas
+    id="myCanvas"
+    width="700"
+    height="600"
+    style="border: 1px solid grey">
+
+    </canvas>
+  <script>
+var canvas = document.getElementById("myCanavas"); //Elfenbenkysten
+var ctx = canvas.getContext("2d");
+ctx.fillstyle = "#0055A4";
+ctx.fillRect(170, 0, 50, 100);
+ctx.beginPath();
+
+ctx.beginPath();
+ctx.fillStyle = "#0057b7";
+ctx.fillRect(230, 0, 60, 100);
+ctx.beginPath();
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#EF4135";
+ctx.fillRect(260, 0, 50, 100);
+ctx.beginPath();
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillStyle = "black";
+ctx.fillText("Frankrike", 180, 130);
+
+  </script> 
+</body>
+</html>
