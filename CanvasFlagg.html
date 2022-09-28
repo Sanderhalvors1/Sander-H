@@ -6,41 +6,29 @@
         <title>Flagg Canvas</title>
     </head>
     
-    <body style="background-color: black;">
+    <body style= "background-color: black;">
 <h1 style="color:white ;"> 
     Elfenbenkysten med riktig farge og dimensjoner</h1>
 
     <canvas
     id="myCanvas"
-    width="700"
-    height="600"
-    style="border: 1px solid grey">
+    width="900px"
+    height="533px">
 
     </canvas>
   <script>
-var canvas = document.getElementById("myCanavas"); //Elfenbenkysten
-var ctx = canvas.getContext("2d");
-ctx.fillstyle = "#0055A4";
-ctx.fillRect(170, 0, 50, 100);
-ctx.beginPath();
+const canvas = document.getElementById("myCanavas"); //Elfenbenkysten
+const ctx = canvas.getContext("2d");
 
-ctx.beginPath();
-ctx.fillStyle = "#0057b7";
-ctx.fillRect(230, 0, 60, 100);
-ctx.beginPath();
+ctx.filltype ="#f77f00";
+ctx.fillRect(0, 10, 266.7, 533);
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-ctx.fillStyle = "#EF4135";
-ctx.fillRect(260, 0, 50, 100);
-ctx.beginPath();
+ctx. fillstyle = "#fff";
+ctx.fillRect(266.7, 10, 266.7, 533);
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillStyle = "black";
-ctx.fillText("Frankrike", 180, 130);
+ctx.fillstyle = "#009e60"
+ctx.fillRect(532, 10, 266.7, 533);
 
-  </script> 
+</script> 
 </body>
 </html>
